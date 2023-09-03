@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Rodar localmente
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Passo 1
+- Node `https://nodejs.org/en`
 
-Currently, two official plugins are available:
+## Passo 2 
+# Clonar Projeto 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Você precisa ter o git instalado em sua maquina.
 
-## Expanding the ESLint configuration
+```
+ git clone https://github.com/ksilvafe/dashboard-eventos
+```
+## Passo 3
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- realizar o comando na raiz do projeto clonado
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+npm install 
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+# GraphQL CMS acesso 
+
+- Você só precisa acessar o link para clonar o projeto, caso precise crie uma conta em: `https://app.hygraph.com/`
+```
+https://rseat.in/lab-graphcms
+
+```
+
+
+## Staks
+
+- Reactjs + Typescript
+- Tailwindcss 
+- GraphQL
+- Apollo
